@@ -8,7 +8,7 @@
 **/
 int _printf(const char *format, ...)
 {
-int size;
+int k;
 va_list args;
 
 if (format == NULL)
