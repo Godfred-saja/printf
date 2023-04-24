@@ -6,7 +6,7 @@
 *
 * Return: Return length of the string
 **/
-int print_reverse_string(va_list);
+int print_reverse_string(va_list list)
 {
 int j, size;
 const char *str;
