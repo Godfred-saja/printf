@@ -9,7 +9,7 @@ char *string_to_upper(char *);
 *
 * Return: Length of the number
 **/
-int print_hexa_upper(va_list list)
+int print_hex_upper(va_list list)
 {
 char *p_buff;
 int size;
