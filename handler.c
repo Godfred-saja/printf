@@ -67,7 +67,7 @@ for (size = k = 0; k < number_formats; k++)
 {
 if (str[*j] == formats[k].type)
 {
-size = formats[i].f(list);
+size = formats[k].f(list);
 return (size);
 }
 
