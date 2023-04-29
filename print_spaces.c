@@ -4,7 +4,7 @@
 * prinsinte - function that prints int begining with space
 * @arguments: input string
 * @buf: buffer pointer
-* @ibuf: index for buffer pointer
+* @ibuf: buffer pointer of index
 * Return: Return number of chars printed
 */
 int prinsinte(va_list arguments, char *buf, unsigned int ibuf)
